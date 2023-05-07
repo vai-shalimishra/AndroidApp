@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:loginuicolors/login.dart';
-import 'package:loginuicolors/register.dart';
+//import 'package:loginuicolors/login.dart';
+//import 'package:loginuicolors/register.dart';
 
 void main() {
   runApp(const MyApp());
 
 
-    runApp(MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: MyLogin(),
-      routes: {
-        'register': (context) => MyRegister(),
-        'login': (context) => MyLogin(),
-      },
-    ));
+    //runApp(MaterialApp(
+     // debugShowCheckedModeBanner: false,
+      //home: MyLogin(),
+      //routes: {
+       // 'register': (context) => MyRegister(),
+        //'login': (context) => MyLogin(),
+      //},
+    //));
   }
 
 
@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.red,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      //home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
